@@ -1,58 +1,63 @@
-# 🌍 Global Sustainability Report
+## 🌍 Global Sustainability Report
+Welcome to the Global Sustainability Report repository!
+This project dives into the world of corporate sustainability through structured data analysis using SQL, Excel, and Power BI. The goal is to uncover environmental, social, and governance (ESG) trends across industries and regions — bringing insights to life with impactful dashboards.
 
-This project presents an in-depth ESG (Environmental, Social, and Governance) analysis using **Power BI dashboards** and **SQL queries**. It aims to provide insights into corporate sustainability performance based on energy consumption, carbon emissions, water usage, and ESG scores across industries, regions, and years.
+## Objective
+The primary aim of this project was to clean, transform, and analyze ESG-related corporate data using Excel and SQL, then visualize the findings through an interactive Power BI dashboard. From carbon emissions and water usage to governance scores and growth rates, the analysis delivers a comprehensive view of corporate sustainability performance.
 
----
+## Chapters
+## Chapter 1: Data Preparation & Cleaning
+Utilized Excel to perform initial cleanup, restructuring columns and converting data types.
 
+Ensured consistency in units (e.g., standardizing emissions and consumption metrics).
 
-## 🧠 Key Insights
+Prepared the dataset for seamless SQL import and analysis.
 
-- ✅ **ESG Score Analysis** by region and year
-- 🔥 **Carbon Emissions** trends across industries
-- 💧 **Water Usage** trends over time
-- ⚡ **Energy Consumption** patterns by industry and region
-- 🧮 Regional comparisons of **Environmental**, **Social**, and **Governance** performance
+## Chapter 2: ESG SQL Queries
+Employed MySQL Workbench to:
 
----
+Import and explore the dataset.
 
-## 🛠️ Tools & Technologies
+Write and execute SQL queries for aggregate ESG metrics.
 
-- **Excel** – for initial data cleaning and preprocessing
-- **Power BI** – for dashboard creation and data visualization
-- **MySQL Workbench** – for data querying and aggregation
-- **SQL** – to extract, transform, and summarize sustainability metrics
-- **GitHub** – version control and collaboration
+Generate industry-specific and region-based sustainability insights.
 
----
+Key SQL operations used:
 
-## 📊 Dashboard Preview
+SELECT, GROUP BY, SUM, AND ORDER BY
 
-> The full interactive Power BI dashboard is available in the `dashboard/` folder  
+## Chapter 3: Interactive Power BI Dashboard
+Built dynamic dashboards with filters for:
 
----
+Region, Industry, and Year.
 
-## 📌 SQL Query Highlights
+Visualized key metrics:
 
-Included in `/data/queries.sql`:
-- Sum of ESG Metrics by Region & Year
-- Energy & Carbon Emissions Analysis
-- ESG Score Trends across Industries
-- Environmental Footprint by Company
+Total carbon emissions, ESG scores, water and energy usage.
 
----
+Designed visual comparisons:
 
-## 🚀 How to Use
+ESG trends by region, industry, and time period.
 
-1. Clone or download this repository
-2. Open `ESG_Report.pbix` with **Power BI Desktop**
-3. Connect your database if required (adjust queries if needed)
-4. Explore the visuals and insights
+Year-on-year carbon emission trends across sectors.
 
----
+##  Key Insights
+Energy consumption and carbon emissions show higher concentrations in manufacturing and energy-intensive industries.
 
+Retail and tech industries exhibit stronger ESG governance scores, suggesting a greater focus on compliance and leadership structures.
 
-## 👩‍💻 Author
+Latin America and Europe emerged as regions with growing sustainability efforts, showing improving ESG Environmental scores year over year.
 
-**Your Name**  
-📧 adanruweyda1@gmail.com  
+A positive growth rate correlation is observable in companies with balanced ESG efforts.
+
+## Tools & Technologies
+Excel – for data preparation and cleaning
+
+MySQL Workbench – for querying and aggregating data
+
+SQL – to extract, manipulate, and summarize ESG data
+
+Power BI – for data visualization and dashboard creation
+
+GitHub – version control and project collaboration
 

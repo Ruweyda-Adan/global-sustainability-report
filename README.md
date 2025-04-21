@@ -1,63 +1,74 @@
-## 🌍 Global Sustainability Report
-Welcome to the Global Sustainability Report repository!
-This project dives into the world of corporate sustainability through structured data analysis using SQL, Excel, and Power BI. The goal is to uncover environmental, social, and governance (ESG) trends across industries and regions — bringing insights to life with impactful dashboards.
+#  Global Sustainability Report
+
+Welcome to the **Global Sustainability Report** repository
+
+This project analyzes corporate ESG (Environmental, Social, and Governance) performance across industries and regions. By combining data cleaning in **Excel**, querying in **MySQL**, and storytelling with **Power BI**, it uncovers key insights into corporate sustainability efforts — a growing priority in today’s business world.
+
+
+## Project Summary
+
+This project simulates the real-world analysis a sustainability or business intelligence analyst might conduct. Using an ESG dataset of companies worldwide, it explores:
+
+- How ESG scores vary across industries and regions  
+- Which sectors are performing well or poorly in sustainability  
+- What trends emerge in carbon emissions, water usage, governance, and profitability  
+
+The final product is an **interactive Power BI dashboard** and a **collection of reusable SQL queries** that highlight high- and low-performing sectors, helping stakeholders make data-informed decisions.
 
 ## Objective
-The primary aim of this project was to clean, transform, and analyze ESG-related corporate data using Excel and SQL, then visualize the findings through an interactive Power BI dashboard. From carbon emissions and water usage to governance scores and growth rates, the analysis delivers a comprehensive view of corporate sustainability performance.
+
+> To clean, analyze, and visualize ESG-related corporate data in order to derive **actionable sustainability insights** using Excel, MySQL Workbench, and Power BI.
 
 ## Chapters
-## Chapter 1: Data Preparation & Cleaning
-Utilized Excel to perform initial cleanup, restructuring columns and converting data types.
 
-Ensured consistency in units (e.g., standardizing emissions and consumption metrics).
+### Chapter 1: Data Preparation & Cleaning (Excel)
+- Handled messy data formatting and inconsistent column naming
+- Standardized units for carbon emissions, water usage, and energy consumption
+- Restructured the dataset for SQL import
 
-Prepared the dataset for seamless SQL import and analysis.
+### Chapter 2: ESG SQL Queries (MySQL Workbench)
+Performed analytical queries such as:
 
-## Chapter 2: ESG SQL Queries
-Employed MySQL Workbench to:
+- **Total energy consumption** by region and industry
+- **Water usage** and **environmental scores** by industry
+- Carbon emissions comparison vs. profitability
+- Growth trends of companies with high ESG ratings
 
-Import and explore the dataset.
+**Key SQL Concepts Used**:  
+`SELECT`, `GROUP BY`, `SUM`, AND `ORDER BY`.
 
-Write and execute SQL queries for aggregate ESG metrics.
+### Chapter 3: Interactive Power BI Dashboard
+Created a professional, interactive report showing:
 
-Generate industry-specific and region-based sustainability insights.
+- ESG trends over time
+- Carbon and energy use by sector
+- Regional comparisons for all three ESG pillars
+- ESG score breakdown by industry and year
+- Growth rate overlays for profitable, sustainable firms
 
-Key SQL operations used:
+## Key Insights
 
-SELECT, GROUP BY, SUM, AND ORDER BY
+ **Strengths Found:**
+- European companies show strong governance frameworks  
+- Retail and tech industries excel in ESG governance  
+- Balanced ESG efforts often align with **positive growth rates**  
 
-## Chapter 3: Interactive Power BI Dashboard
-Built dynamic dashboards with filters for:
+ **Problems Identified:**
+- High energy consumption in manufacturing and mining industries  
+- Carbon emissions remain high in some profitable companies  
+- Environmental scores lag in certain regions and sectors
 
-Region, Industry, and Year.
-
-Visualized key metrics:
-
-Total carbon emissions, ESG scores, water and energy usage.
-
-Designed visual comparisons:
-
-ESG trends by region, industry, and time period.
-
-Year-on-year carbon emission trends across sectors.
-
-##  Key Insights
-Energy consumption and carbon emissions show higher concentrations in manufacturing and energy-intensive industries.
-
-Retail and tech industries exhibit stronger ESG governance scores, suggesting a greater focus on compliance and leadership structures.
-
-Latin America and Europe emerged as regions with growing sustainability efforts, showing improving ESG Environmental scores year over year.
-
-A positive growth rate correlation is observable in companies with balanced ESG efforts.
+ **Solutions Suggested:**
+- Encourage energy-efficient upgrades in high-consumption industries  
+- Offer tax incentives for companies improving ESG metrics  
+- Benchmark leaders to help underperformers catch up  
 
 ## Tools & Technologies
-Excel – for data preparation and cleaning
 
-MySQL Workbench – for querying and aggregating data
+ Excel - Data cleaning, standardization 
+ MySQL Workbench - SQL querying, metric aggregation 
+ SQL - Data analysis 
+ Power BI -  Data visualization & dashboarding 
+ GitHub - Version control and project presentation 
 
-SQL – to extract, manipulate, and summarize ESG data
-
-Power BI – for data visualization and dashboard creation
-
-GitHub – version control and project collaboration
 
